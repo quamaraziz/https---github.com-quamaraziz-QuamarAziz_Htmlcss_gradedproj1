@@ -1,0 +1,107 @@
+/* .covid-care, .diabetes-care{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.covid-care > div, .diabetes-care > div{
+    height: 250px;
+    width: 250px;
+    background-color: beige;
+}
+
+.covid-care img , .diabetes-care img {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 75%;
+    height: 75px;
+    margin: 20px 0px 0px 10px;
+}
+.cart-btn{
+    width: 85%;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+.container{
+    padding: 10px;
+  }
+
+.container .header h1{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    columns: #333333;
+    margin-bottom: 40px;
+}
+
+.container .product-carts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container .product-carts .carts{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(240, 245, 245);
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #b1b1b1;
+}
+.container .product-carts .carts .image{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.container .product-carts .carts .image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container .product-carts .carts .content{
+    width: 100%;
+    height: 40%; 
+    text-align: left;
+    padding: 15px 0;
+    margin: 5px 0px 0 5px;
+}
+
+.container .product-carts .carts .header{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0px 0 5px;
+}
+
+.container .product-carts .carts .content .price,
+.container .product-carts .carts .content .offer{
+    font-weight: bold;
+    color: rgb(116, 175, 175);
+}
+
+.container .product-carts .carts .content .price span{
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.container .product-carts .carts .content .offer span{
+    font-weight:bolder;
+}
+
+.container .product-carts .carts .content .add-to-cart{
+    font-weight: bold;
+    width: 90%;
+    color: rgb(255, 187, 0);
+    border-radius: 5px;
+    background-color: #dbebf5;
+    height: 25px;
+    box-shadow: 2px 2px 10px #b1b1b1;
+}
+
+.container .product-carts .carts .content .add-to-cart:hover{
+    background-color: #c1d0da;;
+}

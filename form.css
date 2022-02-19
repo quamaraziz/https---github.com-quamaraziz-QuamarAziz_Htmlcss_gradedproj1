@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  .form-image{
+    background-image: url("images/lab-test/lab-test.jpg");
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 200px;
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-position: center right;
+
+}
+
+  .form-wrapper{
+      display: flex;
+      width: 60%;
+      margin: 5% auto auto auto;
+      box-shadow: 5px 6px 6px 6px #bbbbbb ;
+      overflow-y: scroll;
+      max-height: 350px;
+      
+  }
+
+  .form-image,
+  .form{
+    flex: 45%;
+    height: 500px;
+
+    /* padding: 5px; */
+  }
+
+  .form input{
+      border: none;
+      border-bottom: 2px solid rgb(206, 205, 205);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+
+  .form input:focus{
+    outline: none;
+  }
+
+  .button input{
+      background-color: #c267ec; /* Green */
+      border: none;
+      color: white;
+      padding: 8px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      border-radius: 5px;
+      
+  }
+
+  .button input:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .button{
+      margin-top: 50px;
+      margin-left: 34%;
+  }
+
+  .form > form{
+      margin-left: 20px;
+      
+  }
+
+  .form h1{
+    text-shadow: 0 0 10px #cccbcb;
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+  }
+
+select option:nth-child(1) {
+  color:#c267ec;
+}
+
+.form{
+  padding: 20px;
+}
+.container{
+  display: block;
+}
+

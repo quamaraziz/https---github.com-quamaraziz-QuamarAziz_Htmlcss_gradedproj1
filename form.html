@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <div class="form">
+                <form action=""> 
+                    <!-- Contact Details -->
+                    <h1>1. Your Contact Details</h1>
+                    <input type="text" id="name" name="name" placeholder="First Name">
+                    <input type="text" id="patient_id" name="patient_id" placeholder="Patient Id">
+                    <input type="text" id="contact_number" name="contact_number" placeholder="Contact Number">
+                    <input type="text" id="email" name="email" placeholder="email">
+                    <!-- Address Details -->
+                    <h1>2. Address</h1>
+                    <input type="text" id="house_number" name="house_number" placeholder="H-No">
+                    <input type="text" id="street" name="street" placeholder="Street">
+                    <input type="text" id="area" name="area" placeholder="Area">
+                    <label for="district">District : </label>
+                    <select name="district" id="district">
+                        <option default>Choose</option>
+                        <option value="">Delhi</option>
+                        <option value="">U.P.</option>
+                        <option value="">West Bengal</option>
+                        <option value="">Bihar</option>
+                        <option value="">Jharkhand</option>
+                        <option value="">Gujrat</option>
+                        <option value="">Rajisthan</option>
+                        <option value="">Haryana</option>
+                        <option value="">Madhya Pradesh</option>
+                        <option value="">Odisa</option>
+                        <option value="">Jammu & Kashmir</option>
+                        <option value="">Maharashtra</option>
+                        <option value="">Karnatka</option>
+                        <option value="">Tamilnadu</option>
+                        <option value="">Uttrakhand</option>
+                        <option value="">Assam</option>
+                        <option value="">Mizoram</option>
+                        <option value="">Nagaland</option>
+                        <option value="">Sikkim</option>
+                    </select>
+                    <!-- Test Type -->
+                    <h1>3. Choose the Test Type</h1>
+                    <label for="cbc">CBC</label>
+                    <input type="checkbox" name="cbc" placeholder="CBC">
+                    <label for="complete_urine">Complete Urine</label>
+                    <input type="checkbox" name="complete_urine" placeholder="complete_urine">
+                    <label for="lipid_profile">Lipid Profile</label>
+                    <input type="checkbox" name="lipid_profile" placeholder="lipid_profile">
+                    <label for="tsh">Thyroid  Stimulating Harmone(TSH)</label>
+                    <input type="checkbox" name="tsh" placeholder="tsh"> 
+                    <label for="gluscose_test">Glucose Test</label>
+                    <input type="checkbox" name="glucose_test" placeholder ="glucose_test">
+                    <!-- Report format -->
+                    <h1>4. Do you want a hard copy of report also ?</h1> 
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="no">
+                    <!-- Date and time -->
+                    <h1>5. Select Your Comfortable Date and Time</h1>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time">
+                </form>
+            </div>
+            <div class="form-image">
+                <!-- <img src="C:/Users/User/OneDrive/Desktop/Pharmacy Shop/Images/Lab-Test/lab-test.jpg" alt=""> -->
+            </div>
+        </div>
+        <div class="button">
+            <!-- Submit and Reset button -->
+           <input type="submit" id="submit" name="submit">
+           <input type="reset" id="reset" name="reset">
+       </div>
+    </div>
+
+</body>
+</html>
